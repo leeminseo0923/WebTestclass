@@ -1,0 +1,106 @@
+*{
+    color: white;
+}
+
+#clock span{
+    font-size:xx-large;
+}
+
+button{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+#todo-form{
+    text-align: center;
+}
+
+#todo-list{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+#todo-list li{
+    position: relative;
+    width: fit-content;
+    margin-left: 20%;
+}
+
+.login-form{
+    text-align: center;
+    padding-left: 52px;
+}
+
+li{
+    list-style-type: none;
+}
+
+input{
+    font-size: medium;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.hidden{
+    display: none;
+}
+
+#clock{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 36vh;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+
+#quote{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    width:fit-content;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.7s;
+}
+
+#quote:hover{
+    bottom: 20px;
+    transition: 0.7s;
+}
+
+#quote span:last-child{
+    color: rgba(0,0,0,0);
+    display: block;
+    transition: 0.7s;
+}
+
+#quote:hover span:last-child{
+    color: rgba(255,255,255,1);
+    transition: 0.7s;
+}
+
+#weather{
+    width: 98%;
+    text-align: right;
+    position: absolute;
+    bottom: 30px;
+}
+
+#weather span{
+    color: gray;
+    font-size: smaller;
+}
